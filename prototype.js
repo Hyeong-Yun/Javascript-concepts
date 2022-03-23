@@ -31,12 +31,12 @@ const calculate1 = {
   },
 };
 
-console.log(calculate1.square());
+console.log(calculate1.square()); // 4
 
 const calculate2 = Object.create(calculate1);
 calculate2.a = 4;
 
-console.log(calculate2.square());
+console.log(calculate2.square()); // 16
 
 // 프로토타입 vs 클래스
 // 프로토타입 - 친구거 쓰는 느낌
@@ -68,7 +68,10 @@ const cat = new Cat("야옹이", "야옹");
 dog.say();
 cat.say();
 
-//클래스 - 부모님한테 물려 받은 느낌
+Dog && Animal;
+Cat && Animal;
+
+// 클래스 - 부모님한테 물려 받은 느낌
 class Animal {
   constructor(type, name, sound) {
     this.type = type;

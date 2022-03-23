@@ -3,13 +3,12 @@ function makeFunc() {
   function displayName() {
     console.log(name);
   }
-
   return displayName;
 }
 
-var myFunc = makeFunc();
-console.log(myFunc);
-myFunc();
+var myFunc = makeFunc(); // == displaynemn
+console.log(myFunc); // displname [function]
+myFunc(); // Mozila
 
 function makeAdder(x) {
   return function (y) {
@@ -36,6 +35,7 @@ function jane() {
     setFinal: (score) => (final = score),
   };
 }
+
 jane().getMid(); // A
 jane().getFinal(); // B+
 
