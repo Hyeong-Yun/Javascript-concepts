@@ -14,7 +14,6 @@ function foo() {
 foo();
 
 //콜 스택
-
 //bar
 //foo
 //global
