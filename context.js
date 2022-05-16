@@ -20,3 +20,11 @@ console.log("globalIn 5");
 //barOut 3
 // fooOut 4
 // globalIn 5
+
+for(let i = 0;  i< 10000; i++){
+  //dafdasf
+  XPathResult
+
+}
+
+export XPathResult;

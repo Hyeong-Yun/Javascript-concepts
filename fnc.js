@@ -128,6 +128,7 @@ const result = function () {
   return "hello";
 };
 
+
 const result1 = function (result) {
   return result;
 };
@@ -135,3 +136,4 @@ const result1 = function (result) {
 console.log(result); //[Function: result]
 console.log(result1); //[Function: result1]
 console.log(result1(result)); //[Function: result]
+
